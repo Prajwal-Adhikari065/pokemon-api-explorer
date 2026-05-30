@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <!-- <img src="../../Images/myLogo.png " alt=""> -->
+  </nav>
+
+  <main>
+    <form>
+      <label for="Pokemon">Pokemon Name:</label>
+      <input type="text" name="pokemonName" id="Pokemon">
+      <button id="send">Search</button>
+
+      <div class="pokedetails" style="display: flex; justify-content: space-around;">
+        <div class="textDetails" style="width: 200px;">
+          Name: <p id="pokeName" style="display: inline;"></p> <br>
+          Type: <span id="type"></span> <br> <br><br>
+          <h2>Stats</h2>
+          <hr>
+          <ul style="list-style: none;">
+            HP:<li  style="display: inline;">   
+            </li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter> <br>
+            Attack: <li  style="display: inline;"></li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter><br>
+            Defense:<li  style="display: inline;"></li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter><br>
+            SP. Attack:<li  style="display: inline;"></li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter><br>
+            SP. Defense:<li  style="display: inline;"></li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter><br>
+            Speed:<li  style="display: inline;"></li><meter min="0" max="255" low="50" high="85" optimum="120" value=""></meter><br>
+          </ul>
+        </div>
+
+        <div class="image" style="height: 40vh; width: 40vw; 
+          background: url(); background-size: contain;
+          background-position: center; background-repeat: no-repeat;">
+
+        </div>
+
+      </div>
+
+    </form>
+  </main>
+
+
+  <footer>
+    © 2026 Flutton. Inspired by creativity, driven by innovation.
+  </footer>
+  <!-- <h1>Practice set for Javascript</h1> -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
